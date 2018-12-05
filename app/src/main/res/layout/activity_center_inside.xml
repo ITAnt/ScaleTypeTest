@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,103 +11,102 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="图片256，View 256 x 256，ImageView背景黑色" />
-
-            <ImageView
-                android:layout_width="256px"
-                android:layout_height="256px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
-                android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
+                android:text="总结：View比较大的时候，图片不拉伸，居中展示；View比较小的时候，图片缩小到宽或高与View一样，哪个比例大以哪个为准，然后居中展示"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginBottom="20dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="图片256，View 512 x 512，ImageView背景黑色" />
-
-            <ImageView
-                android:layout_width="512px"
-                android:layout_height="512px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
-                android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="图片256，View 512 x 256，ImageView背景黑色" />
-
-            <ImageView
-                android:layout_width="512px"
-                android:layout_height="256px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
-                android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="图片256，View 256 x 512，ImageView背景黑色" />
-
-            <ImageView
-                android:layout_width="256px"
-                android:layout_height="512px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
-                android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="图片256，View 128 x 128，ImageView背景黑色" />
-
-            <ImageView
-                android:layout_width="128px"
-                android:layout_height="128px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
-                android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="图片256，View 256 x 128，ImageView背景黑色" />
-
+                android:text="View与图片等宽等高"/>
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="128px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
+                android:src="@mipmap/cat_256"
                 android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="图片256，View 128 x 256，ImageView背景黑色" />
-
+                android:text="View的宽高均大于图片宽高"/>
             <ImageView
-                android:layout_width="128px"
-                android:layout_height="256px"
-                android:layout_marginBottom="20dp"
-                android:background="@android:color/black"
+                android:layout_width="512px"
+                android:layout_height="512px"
+                android:src="@mipmap/cat_256"
                 android:scaleType="centerInside"
-                android:src="@mipmap/cat_256" />
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View的宽大于图片，高相等"/>
+            <ImageView
+                android:layout_width="512px"
+                android:layout_height="128px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="centerInside"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View的高大于图片，宽相等"/>
+            <ImageView
+                android:layout_width="256px"
+                android:layout_height="512px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="centerInside"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View的宽高都小于图片"/>
+            <ImageView
+                android:layout_width="96px"
+                android:layout_height="96px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="centerInside"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View的宽小于图片，高相等"/>
+            <ImageView
+                android:layout_width="96px"
+                android:layout_height="128px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="centerInside"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View的高小于图片，宽相等"/>
+            <ImageView
+                android:layout_width="256px"
+                android:layout_height="96px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="centerInside"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

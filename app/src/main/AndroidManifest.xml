@@ -12,19 +12,26 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".FitCenterActivity"/>
-        <activity android:name=".CenterActivity"/>
-        <activity android:name=".CenterCropActivity"/>
-        <activity android:name=".CenterInsideActivity"/>
-        <activity android:name=".FitEndActivity"/>
-        <activity android:name=".FitStartActivity"/>
-        <activity android:name=".FitXYActivity"/>
-        <activity android:name=".MatrixActivity"/>
+        <activity android:name=".FitCenterActivity"
+            android:label="fitCenter"/>
+        <activity android:name=".CenterActivity"
+            android:label="center"/>
+        <activity android:name=".CenterCropActivity"
+            android:label="centerCrop"/>
+        <activity android:name=".CenterInsideActivity"
+            android:label="centerInside"/>
+        <activity android:name=".FitEndActivity"
+            android:label="fitEnd"/>
+        <activity android:name=".FitStartActivity"
+            android:label="fitStart"/>
+        <activity android:name=".FitXYActivity"
+            android:label="fitXy"/>
+        <activity android:name=".MatrixActivity"
+            android:label="matrix"/>
     </application>
 
 </manifest>
