@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 256 x 256，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="256px"
+                android:layout_height="256px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 512 x 512，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="512px"
+                android:layout_height="512px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 512 x 256，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="512px"
+                android:layout_height="256px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 256 x 512，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="256px"
+                android:layout_height="512px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 128 x 128，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 256 x 128，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="256px"
+                android:layout_height="128px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片256，View 128 x 256，ImageView背景黑色"/>
+            <ImageView
+                android:layout_width="128px"
+                android:layout_height="256px"
+                android:src="@mipmap/cat_256"
+                android:scaleType="center"
+                android:background="@android:color/black"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

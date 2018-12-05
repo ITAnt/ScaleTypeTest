@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_fit_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fitCenter"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="center"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_center_crop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="centerCrop"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_center_inside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="centerInside"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_fit_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fitEnd"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_fit_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fitStart"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_fit_xy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fitXY"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_matrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="matrix"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
