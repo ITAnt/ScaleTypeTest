@@ -6,7 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="总结：图片拉伸或缩放到View的大小，不必考虑比例"
+                android:text="总结：图片直接拉伸或缩放到View的大小，填满整个View，不必考虑比例"
                 android:textColor="@android:color/holo_red_dark"
                 android:layout_marginBottom="20dp"/>
 
@@ -30,7 +31,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -42,7 +43,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -54,7 +55,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -66,7 +67,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -78,7 +79,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -90,7 +91,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -102,7 +103,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitXY"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>

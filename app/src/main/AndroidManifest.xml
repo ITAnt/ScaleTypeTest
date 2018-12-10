@@ -32,6 +32,9 @@
             android:label="fitXy"/>
         <activity android:name=".MatrixActivity"
             android:label="matrix"/>
+
+        <activity android:name=".TestActivity"
+            android:label="test"/>
     </application>
 
 </manifest>

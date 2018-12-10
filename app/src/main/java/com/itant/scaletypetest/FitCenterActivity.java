@@ -8,6 +8,6 @@ public class FitCenterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_default_fit_center);
+        setContentView(R.layout.activity_fit_center_default);
     }
 }

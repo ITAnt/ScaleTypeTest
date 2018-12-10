@@ -6,7 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +21,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="总结：View比较大的时候，图片拉伸到View宽或高，哪个比例小以哪个为准，靠下或右展示；View比较小的时候，图片缩小到宽或高与View一样，哪个比例大以哪个为准，然后靠下或右展示"
+                android:text="总结：View比较大的时候，图片按比例放大，直到图片的宽等于View宽或高等于View的高，最终图片的宽高＜=View的宽高，靠下或右展示；
+                View比较小的时候，图片按比例缩小，直到图片的宽等于View的宽或图片的高等于View的高，最终图片的宽高＜=View的宽高，然后靠下或右展示
+                \n\n一句话：可放可缩宽高小于等于View，居右下"
                 android:textColor="@android:color/holo_red_dark"
                 android:layout_marginBottom="20dp"/>
 
@@ -31,7 +34,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -43,7 +46,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -55,7 +58,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -67,7 +70,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -79,7 +82,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -91,7 +94,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -103,7 +106,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="fitEnd"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +19,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="总结：View比较大的时候，图片不拉伸，直接居中显示；View比较小的时候，图片仍然不缩放，截取中间重叠部分展示"
+                android:text="总结：View比较大的时候，图片不放大，直接居中显示；
+                View比较小的时候，图片仍然不缩小，直接截取中间重叠部分展示。
+                \n\n一句话：不放不缩中取重"
                 android:textColor="@android:color/holo_red_dark"
                 android:layout_marginBottom="20dp"/>
 
@@ -31,7 +32,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -43,7 +44,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -55,7 +56,7 @@
             <ImageView
                 android:layout_width="512px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -67,7 +68,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="512px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -79,7 +80,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -91,7 +92,7 @@
             <ImageView
                 android:layout_width="96px"
                 android:layout_height="128px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
@@ -103,7 +104,7 @@
             <ImageView
                 android:layout_width="256px"
                 android:layout_height="96px"
-                android:src="@mipmap/cat_256"
+                android:src="@drawable/cat_256"
                 android:scaleType="center"
                 android:background="@android:color/black"
                 android:layout_marginBottom="20dp"/>
